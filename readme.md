@@ -29,6 +29,7 @@ This repository contains the implementation of the classic **2048 game** in C++.
 │   ├── BoardServices.cpp  # BoardServices class implementation
 │   ├── GameServices.h     # GameServices class header file
 │   └── GameServices.cpp   # GameServices class implementation
+├── main.cpp               # Main file for running code
 └── README.md              # Documentation file
 ```
 
@@ -89,7 +90,7 @@ Provides game-level services such as checking win/lose conditions and handling m
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/dalaixlmao/2048-game.git
    ```
 
 2. Navigate to the project directory:
