@@ -17,19 +17,18 @@ This repository contains the implementation of the classic **2048 game** in C++.
 
 ### Directory Structure
 ```
-.
-├── main.cpp               # Entry point of the program
-├── models
-│   ├── Board.h            # Board class header file
-│   ├── Board.cpp          # Board class implementation
-│   ├── Tile.h             # Tile class header file
-│   └── Tile.cpp           # Tile class implementation
-├── services
-│   ├── BoardServices.h    # BoardServices class header file
-│   ├── BoardServices.cpp  # BoardServices class implementation
-│   ├── GameServices.h     # GameServices class header file
-│   └── GameServices.cpp   # GameServices class implementation
-├── main.cpp               # Main file for running code
+├── src
+│    ├── main.cpp               # Entry point of the program
+│    ├── models
+│    │   ├── Board.h            # Board class header file
+│    │   ├── Board.cpp          # Board class implementation
+│    │   ├── Tile.h             # Tile class header file
+│    │   └── Tile.cpp           # Tile class implementation
+│    └── services
+│        ├── BoardServices.h    # BoardServices class header file
+│        ├── BoardServices.cpp  # BoardServices class implementation
+│        ├── GameServices.h     # GameServices class header file
+│        └── GameServices.cpp   # GameServices class implementation
 └── README.md              # Documentation file
 ```
 
